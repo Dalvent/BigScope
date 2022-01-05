@@ -14,7 +14,7 @@ public class CharacterMovement : MonoBehaviour
     
     public float MaxForwardSpeed = 5f;
     [Range(1, 60)] public float Acceleration = 20.0f;
-    [Range(0, 500)] public float MaxRotateSpeed = 150f;
+    [Range(0, 500)] public float MaxRotateSpeed = 12250f;
     public float JumpSpeed = 20f;
     public float Gravity = 40f;
     public bool InputEnabled = true;
@@ -211,7 +211,7 @@ public class CharacterMovement : MonoBehaviour
 
         // Rotate minifig.
         transform.Rotate(0, _rotateSpeed * Time.deltaTime, 0);
-        transform.RotateAround(_oldGroundedPosition, Vector3.up, _externalRotation * Time.deltaTime);
+        transform.RotateAround(_oldGroundedPosition, Vector3.up, _externalRotation);
     }
 
     public void TeleportTo(Vector3 position)
