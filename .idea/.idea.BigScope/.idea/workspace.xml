@@ -1,668 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c33c02-c789-4d2b-8848-fc3670ec747f" name="Changes" comment="Add custom hero move class">
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Characters.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Characters/Hero.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Characters/RotateSprite.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Characters/RotateSprite.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Extensions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Extensions/FloatExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Extensions/FloatExtension.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/BootstrapInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/BootstrapInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/GameFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IGameFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/Factory/IGameFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/GameStateMachine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/GameStateMachine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/IGameStateMachine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/IGameStateMachine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/BootstrapState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/BootstrapState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/GameLoopState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/GameLoopState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/IExitableState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/IExitableState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/IPayloadedState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/IPayloadedState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/IState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/IState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/LoadLevelState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/LoadLevelState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/LoadProgressState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Infrastructure/State/LoadProgressState.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/CoroutineRunner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/CoroutineRunner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/ICoroutineRunner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/ICoroutineRunner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/ISceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/ISceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/Input.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/Input/IInputService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/Input/IInputService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/Input/InputService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/Input/InputService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/SceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Services/SceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Infrastructure.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/White.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/White.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/LICENSE.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/ReadMe.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/ReadMe.url.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/BindInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/BindInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/BindStatement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/BindStatement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/FactoryBindInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/FactoryBindInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/GameObjectCreationParameters.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/GameObjectCreationParameters.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/MemoryPoolBindInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindInfo/MemoryPoolBindInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderGeneric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderNonGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteBinderNonGeneric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderGeneric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderNonGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteBinders/ConcreteIdBinderNonGeneric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteIdArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConcreteIdArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionAssemblySelectionBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionAssemblySelectionBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionBindInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionBindInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionFilterTypesBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionFilterTypesBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionSelectTypesBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Conventions/ConventionSelectTypesBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/CopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/CopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder0.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder0.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder1.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder10.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder10.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder4.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder4.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder5.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder5.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryArgumentsToChoiceBinder/FactoryArgumentsToChoiceBinder6.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder0.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder0.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder1.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder10.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder10.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder4.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder4.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder5.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder5.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/FactoryFromBinder6.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder0.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder0.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder1.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder10.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder10.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder4.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder4.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder5.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder5.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinder6.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderWithParams.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/SubContainerBinder/FactorySubContainerBinderWithParams.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/Untyped.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/Untyped/FactoryFromBinderUntyped.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinder/Untyped/FactoryFromBinderUntyped.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinderBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryFromBinderBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/DecoratorToChoiceFromBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/DecoratorToChoiceFromBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder0.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder0.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder1.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder10.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder10.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder4.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder4.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder5.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder5.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceBinder/FactoryToChoiceBinder6.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder0.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder0.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder1.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder10.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder10.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder2.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder2.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder3.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder3.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder4.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder4.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder5.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder5.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder6.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/FactoryToChoiceIdBinder/FactoryToChoiceIdBinder6.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/PlaceholderFactoryBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/PlaceholderFactoryBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolExpandBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolExpandBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolInitialSizeBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/Factory/Pooling/MemoryPoolInitialSizeBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderGeneric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderNonGeneric.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinderNonGeneric.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/GameObject/TransformScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IdBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IdBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IdScopeConcreteIdArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IdScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IfNotBoundBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/IfNotBoundBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/InstantiateCallbackConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/InstantiateCallbackConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/NonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/NonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/ScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/SubContainerBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/SubContainerBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindingUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/BindingUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/IBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/IBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/NullBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/NullBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabResourceBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/PrefabResourceBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/ProviderBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/ProviderBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/ScopableBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/ScopableBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SingleProviderBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SingleProviderBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabBindingFinalizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Finalizers/SubContainerPrefabBindingFinalizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorStaticInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorStaticInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorWindow.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorWindow/ZenjectEditorWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/EditorWindow/ZenjectEditorWindow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/GameObjectContextEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/GameObjectContextEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ProjectContextEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ProjectContextEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/RunnableContextEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/RunnableContextEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneContextEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneContextEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneDecoratorContextEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneDecoratorContextEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ObjectGraphVisualizer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ObjectGraphVisualizer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/SceneParentLoading.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/DefaultSceneContractConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/DefaultSceneContractConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/SceneParentAutomaticLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/SceneParentAutomaticLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/UnityInspectorListEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/UnityInspectorListEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ZenMenuItems.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ZenMenuItems.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ZenUnityEditorUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/ZenUnityEditorUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Zenject-Editor.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Zenject-Editor.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/FactoryProviderWrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/FactoryProviderWrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/IFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/IFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/KeyedFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/KeyedFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PlaceholderFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PlaceholderFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PlaceholderFactoryBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PlaceholderFactoryBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/IMemoryPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/IMemoryPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPoolBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MemoryPoolBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MonoMemoryPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MonoMemoryPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MonoPoolableMemoryPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/MonoPoolableMemoryPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/PoolFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/PoolFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/PoolableMemoryPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/PoolableMemoryPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Static.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Static/PoolableStaticMemoryPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Static/PoolableStaticMemoryPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Static/StaticMemoryPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Static/StaticMemoryPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ArrayPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ArrayPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/DictionaryPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/DictionaryPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/HashSetPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/HashSetPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ListPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/ListPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/PoolCleanupChecker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/PoolCleanupChecker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/StaticMemoryPoolRegistry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/Pooling/Util/StaticMemoryPoolRegistry.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PrefabFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PrefabFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PrefabResourceFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Factories/PrefabResourceFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/InjectUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/LazyInject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Injection/LazyInject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/GameObjectContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/ProjectContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/ProjectContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/RunnableContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/RunnableContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneDecoratorContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneDecoratorContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/StaticContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/StaticContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/IInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/IInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Installer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Installer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/InstallerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/InstallerBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ZenjectBinding.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ZenjectBinding.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ZenjectManagersInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ZenjectManagersInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Func.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Func.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/LinqExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/LinqExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Log.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Log.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/MiscExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/MiscExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/PreserveAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/PreserveAttribute.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/TypeExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/TypeExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/TypeStringFormatter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/TypeStringFormatter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/ValuePair.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/ValuePair.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/BindingId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/BindingId.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/DiContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/DiContainer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/IInstantiator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/IInstantiator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/LazyInstanceInjector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/LazyInstanceInjector.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/LookupId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/LookupId.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/SingletonMarkRegistry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/SingletonMarkRegistry.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/ZenjectSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/ZenjectSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/CachedOpenTypeProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/CachedOpenTypeProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/CachedProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/CachedProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToCurrentGameObjectComponentProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToCurrentGameObjectComponentProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToExistingGameObjectComponentProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToExistingGameObjectComponentProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToGameObjectComponentProviderBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToGameObjectComponentProviderBase.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToNewGameObjectComponentProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/AddToGameObjectComponentProviders/AddToNewGameObjectComponentProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectComponentProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectComponentProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectGetterComponentProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromGameObjectGetterComponentProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromPrefabComponentProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/GetFromPrefabComponentProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/InstantiateOnPrefabComponentProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ComponentProviders/InstantiateOnPrefabComponentProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Decorator.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Decorator/DecoratorProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/Decorator/DecoratorProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/EmptyGameObjectProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/EmptyGameObjectProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/PrefabGameObjectProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GameObjectProviders/PrefabGameObjectProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GetterProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/GetterProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IFactoryProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IFactoryProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IProviderExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/IProviderExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/InstanceProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/InstanceProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodMultipleProviderUntyped.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodMultipleProviderUntyped.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderMultiple.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderMultiple.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderSimple.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderSimple.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderUntyped.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderUntyped.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderWithContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/MethodProviderWithContainer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PoolableMemoryPoolProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PoolableMemoryPoolProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/IPrefabInstantiator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/IPrefabInstantiator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiatorCached.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabCreators/PrefabInstantiatorCached.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/IPrefabProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/IPrefabProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderCustom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderCustom.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/PrefabProviders/PrefabProviderResource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ProviderUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ProviderUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ResolveProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ResolveProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ResourceProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ResourceProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ScriptableObjectInstanceProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ScriptableObjectInstanceProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ScriptableObjectResourceProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/ScriptableObjectResourceProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/ISubContainerCreator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/ISubContainerCreator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorBindInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorBindInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstance.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstanceGetter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByInstanceGetter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByMethod.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByMethod.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewGameObjectDynamicContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewGameObjectDynamicContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefab.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefab.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabDynamicContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabDynamicContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabWithParams.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorByNewPrefabWithParams.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorCached.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorCached.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorDynamicContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorDynamicContext.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerCreators/SubContainerCreatorUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerDependencyProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/SubContainerDependencyProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/TransientProvider.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Providers/TransientProvider.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorIkHandlerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorIkHandlerManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorMoveHandlerManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/AnimatorMoveHandlerManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorIkHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorIkHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorMoveHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/AnimatorInterfaces/IAnimatorMoveHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/DisposableManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/DisposableManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/GuiRenderableManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/GuiRenderableManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/GuiRenderer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/GuiRenderer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/InitializableManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/InitializableManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/DecoratableMonoKernel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/DecoratableMonoKernel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/DefaultGameObjectKernel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/DefaultGameObjectKernel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/Kernel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/Kernel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/MonoKernel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/MonoKernel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/ProjectKernel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/ProjectKernel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/PoolableManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/PoolableManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistry.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistryAdderAndRemover.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistryAdderAndRemover.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TaskUpdater.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TaskUpdater.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TickableManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TickableManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/link.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Usage/link.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ActionInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ActionInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/CheatSheet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/CheatSheet.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/DefaultGameObjectParentInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/DefaultGameObjectParentInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/DisposeBlock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/DisposeBlock.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ExecutionOrderInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ExecutionOrderInstaller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ProfileBlock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ProfileBlock.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ProfileTimers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ProfileTimers.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ReflectionInfoTypeInfoConverter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ReflectionInfoTypeInfoConverter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ReflectionTypeInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ReflectionTypeInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ReflectionUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ReflectionUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/TypeAnalyzer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/TypeAnalyzer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/UnityUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/UnityUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ValidationUtil.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ValidationUtil.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenPools.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenPools.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenReflectionTypeAnalyzer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenReflectionTypeAnalyzer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenUtilInternal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenUtilInternal.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectException.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectStateMachineBehaviourAutoInjecter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectStateMachineBehaviourAutoInjecter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation/IValidatable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation/IValidatable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation/ValidationMarker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Validation/ValidationMarker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Zenject.csproj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/Version.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/package.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/zenject.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/zenject.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Character.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Character.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/ProjectContext.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Bootstrap.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Bootstrap.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main/Global Volume (1) Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main/Global Volume (1) Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main/Global Volume Profile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main/Global Volume Profile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main/LightingData.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main/LightingData.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main/ReflectionProbe-0.exr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Main/ReflectionProbe-0.exr.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset_Renderer.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineAsset_Renderer.asset.meta" afterDir="false" />
+    <list default="true" id="19c33c02-c789-4d2b-8848-fc3670ec747f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Extensions/VectorExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Extensions/VectorExtensions.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BigScope/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigScope/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/RotateSprite.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/RotateSprite.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Gray.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Gray.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Characters/RotateSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Characters/RotateSprite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Lighting Settings.lighting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Character.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -686,22 +35,33 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.15.4/Editor/Collaborate/Models/Providers/Collab.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CodeBase/Characters/Hero/HeroSound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Курсы/Архитектура Unity/src/KnowledgeIsPower/Assets/CodeBase/Services/WindowConfig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.0.3/Runtime/Codeless/IAPListener.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ads@3.7.5/Runtime/Advertisement/Platform/Editor/EditorPlatform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/df/f9c39253/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Курсы/Архитектура Unity/src/KnowledgeIsPower/Assets/CodeBase/Infrastructure/State/SaveLoadProgressService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CodeBase/Characters/RotateSprite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/73/2c7426cc/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Runtime/Playables/DirectorControlPlayable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/d1/815034b2/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Курсы/Архитектура Unity/src/KnowledgeIsPower/Assets/CodeBase/Services/PersistendProgress/IPersistentProgressService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/CameraEditorUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@4.0.3/Runtime/Common/MiniJSON.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ads@3.7.5/Runtime/Advertisement/Platform/Editor/Placeholder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Курсы/Архитектура Unity/src/KnowledgeIsPower/Assets/CodeBase/Services/PlayerProviderService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b6aa75c6bb94d0a92907bbf0928e02745d000/9c/2b1509b9/MethodImplOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Курсы/Архитектура Unity/src/KnowledgeIsPower/Assets/CodeBase/Services/PersistendProgress/PersistentProgressService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/89d295cad76040f39b580bb1fbe20ea418000/b0/cd55ea5f/Physics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Курсы/Архитектура Unity/src/KnowledgeIsPower/Assets/CodeBase/Services/StaticDataService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/89d295cad76040f39b580bb1fbe20ea418000/4d/0881e329/PhysicsScene.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Курсы/Архитектура Unity/src/KnowledgeIsPower/Assets/CodeBase/Services/ResetProgressService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.15.4/Editor/Collaborate/Models/Providers/Collab.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Курсы/Архитектура Unity/src/KnowledgeIsPower/Assets/CodeBase/Services/IResetProgressService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/df/f9c39253/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Runtime/Playables/DirectorControlPlayable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/d1/815034b2/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/Window/TimelineWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Dev/MyProjects/BigScope/Assets/CodeBase/Characters/Hero/HeroMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/66/d0b85b23/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0ee480759f3d481d82ada245dc74f9fd13be00/ce/9a4cff66/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.7.0/Editor/LookDev/Context.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -712,7 +72,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.7213346" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.7215034" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -768,7 +128,7 @@
       <workItem from="1642264078651" duration="242000" />
       <workItem from="1642264361484" duration="4416000" />
       <workItem from="1642331418926" duration="5614000" />
-      <workItem from="1642345671529" duration="1791000" />
+      <workItem from="1642345671529" duration="7647000" />
     </task>
     <task id="LOCAL-00001" summary="Simple project setup">
       <created>1641228822847</created>
@@ -791,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642347439052</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Start creating infrastructure of project">
+      <created>1642347497653</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642347497653</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Remove Acceleration from hero move">
+      <created>1642347639419</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642347639419</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -817,7 +191,9 @@
     <MESSAGE value="Simple project setup" />
     <MESSAGE value="intermediate commit" />
     <MESSAGE value="Add custom hero move class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add custom hero move class" />
+    <MESSAGE value="Start creating infrastructure of project" />
+    <MESSAGE value="Remove Acceleration from hero move" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Acceleration from hero move" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -847,32 +223,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/CodeBase/Characters/Hero/HeroMove.cs</url>
-          <line>102</line>
-          <properties documentPath="D:\Dev\MyProjects\BigScope\Assets\CodeBase\Characters\Hero\HeroMove.cs" initialLine="102" containingFunctionPresentation="method 'IsAirborne'">
-            <startOffsets>
-              <option value="2598" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2634" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/CodeBase/Characters/Hero/HeroMove.cs</url>
-          <line>55</line>
-          <properties documentPath="D:\Dev\MyProjects\BigScope\Assets\CodeBase\Characters\Hero\HeroMove.cs" initialLine="55" containingFunctionPresentation="method 'Update'">
-            <startOffsets>
-              <option value="1370" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1388" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
