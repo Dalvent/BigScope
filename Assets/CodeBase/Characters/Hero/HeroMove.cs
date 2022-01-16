@@ -14,7 +14,6 @@ public class HeroMove : MonoBehaviour
 
     public CharacterController CharacterController;
     [Range(1, 200)] public float MaxForwardSpeed;
-    [Range(1, 100)] public float Acceleration = 20.0f;
     [Min(0)] public int MaxJumpsInAir;
     [Min(0)] public float JumpPower;
     public float Gravity;
@@ -158,30 +157,7 @@ public class HeroMove : MonoBehaviour
 
     private Vector3 CalculateDirectSpeed(Vector3 input)
     {
-        Vector3 targetSpeed = input * MaxForwardSpeed;
-        return targetSpeed;
-        Vector3 directSpeed = new Vector3(_move.x, 0, _move.z);
-
-        Vector3 speedDiff = targetSpeed - directSpeed;
-
-        if (IsAccelerated(speedDiff))
-        {
-            return targetSpeed;
-        }
-
-        if (speedDiff.sqrMagnitude > 0.0f)
-        {
-            speedDiff.Normalize();
-
-            return directSpeed + speedDiff * Acceleration * Time.deltaTime;
-        }
-
-        return directSpeed;
-    }
-
-    private bool IsAccelerated(Vector3 speedDiff)
-    {
-        return speedDiff.sqrMagnitude < Acceleration * Acceleration * Time.deltaTime * Time.deltaTime;
+        return input * MaxForwardSpeed;
     }
 
     private Vector3 CalculatedMovementInput(Vector3 axis)
